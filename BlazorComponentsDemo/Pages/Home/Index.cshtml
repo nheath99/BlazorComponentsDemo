@@ -1,0 +1,17 @@
+﻿@page "/"
+@model BlazorApp1.Pages.Home.IndexModel
+@{
+}
+
+<h1>Homepage</h1>
+
+<div>
+	<a asp-page="/Products/Index">Products</a>
+</div>
+<div>
+	<a href="blazor">Blazor</a>
+</div>
+
+
+<component type="typeof(Counter)" render-mode="ServerPrerendered" />
+
